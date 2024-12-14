@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+/* Add Tailwind classes or custom styles */
+.bg-blue-500:hover {
+  background-color: #3b82f6;
+}
+
+.bg-gray-300:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+
+
